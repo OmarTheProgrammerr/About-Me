@@ -1,0 +1,115 @@
+.AboutMe {
+  padding-bottom: 24px;
+  border-radius: 0;
+}
+
+.card {
+  background-color: white;
+  max-width: 912px;
+  height: fit-content;
+  border: 0px solid gray;
+  margin-top: 20px;
+  font-size: 16px;
+  color: black;
+  padding: 18px 24px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.myInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  justify-content: left;
+  margin: 10px 0px 15px 0px;
+  border-left: 100px;
+  min-width: none;
+}
+.child {
+  min-width: 100px;
+}
+.card-body {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.BossOmar {
+  /* My Image*/
+  color: transparent;
+  object-fit: cover;
+  text-align: center;
+  text-indent: 10000px;
+  margin: auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  font-size: 1.25rem;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1;
+  user-select: none;
+  border-radius: 50%;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.87);
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  background-color: #fff;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+
+.Email {
+  width: 20px;
+  text-decoration: none;
+  margin: auto;
+}
+.LinkedIn {
+  width: 20px;
+  text-decoration: none;
+  margin: auto;
+}
+.Facebook {
+  width: 20px;
+  text-decoration: none;
+  margin: auto;
+}
+.Instagram {
+  width: 20px;
+  text-decoration: none;
+  margin: auto;
+}
+
+@media (max-width: 960px) {
+  .card {
+    margin: 20px auto;
+    width: 552px;
+  }
+  .card-body {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .myInfo {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 600px) {
+  .card {
+    padding-bottom: 24px;
+    margin: 20px 16px;
+    padding: 16px;
+    color: rgba(0, 0, 0, 0.87);
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    background-color: #fff;
+  }
+}

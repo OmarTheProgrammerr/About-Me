@@ -1,0 +1,19 @@
+* {
+  /* margin: 0px;
+  padding: 0px; */
+  box-sizing: border-box;
+}
+
+.a {
+  text-decoration: none;
+  width: max-content;
+}
+
+/* .p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+} */
+

@@ -1,0 +1,18 @@
+.card-header {
+  margin-bottom: 16px;
+}
+
+.GoodFood {
+  width: 140px;
+  margin: auto;
+  margin-top: 16px;
+}
+.Intern {
+  font-size: 12px;
+  margin: 0px 230px 0px 230px;
+}
+@media (max-width: 960px) {
+  .Intern {
+    margin: auto;
+  }
+}
