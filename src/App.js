@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import React from "react";
+import HeaderBox from "./Component/HeaderBox";
+import AMBox from "./Component/AMBox";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Experience from "./Component/Experience";
+import Education from "./Component/Education";
+import Projects from "./Component/Projects";
+import BossOmar from "./imgs/BossOmar.jpg";
+// import { Card } from "react-bootstrap";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+      <HeaderBox></HeaderBox>
+      <AMBox></AMBox>
+      <Experience></Experience>
+      <Projects></Projects>
+      <Education></Education>
+    </main>
   );
-}
+};
 
 export default App;

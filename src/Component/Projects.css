@@ -1,0 +1,40 @@
+.card-header {
+  margin-bottom: 16px;
+}
+
+.FindOmar {
+  width: 140px;
+  margin: auto;
+  margin-top: 16px;
+}
+.Projects {
+  font-size: 12px;
+  margin: 0px 230px 0px 230px;
+}
+@media (max-width: 960px) {
+  #Project {
+    margin: 20px auto;
+    width: 552px;
+  }
+
+  .Projects {
+    margin: auto;
+  }
+}
+
+#Project {
+  background-color: white;
+  max-width: 912px;
+  height: fit-content;
+  border: 0px solid gray;
+  margin-top: 20px;
+  font-size: 16px;
+  color: black;
+  padding: 18px 24px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.description {
+  text-align: left;
+}

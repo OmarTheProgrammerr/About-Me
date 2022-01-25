@@ -1,0 +1,50 @@
+#Education {
+  background-color: white;
+  max-width: 912px;
+  height: fit-content;
+  border: 0px solid gray;
+  margin-top: 20px;
+  color: black;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.card-header {
+  margin-bottom: 16px;
+}
+
+.Intern {
+  font-size: 12px;
+  margin: 0px 230px 0px 230px;
+}
+@media (max-width: 960px) {
+  #Education {
+    margin: 20px auto;
+    width: 552px;
+  }
+  .Intern {
+    margin: auto;
+  }
+}
+
+.Concordia {
+  width: 200px;
+  margin: auto;
+  margin-top: 16px;
+}
+
+.school {
+  width: 140px;
+  margin: auto;
+  margin-top: 0px;
+}
+
+.AlManhal {
+  width: 110px;
+  margin: auto;
+  margin-top: 0px;
+}
+.Education {
+  font-size: 12px;
+  margin: 0px 190px 0px 190px;
+}
