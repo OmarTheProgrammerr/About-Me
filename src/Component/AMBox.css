@@ -89,25 +89,23 @@ a:visited {
     font-size: 14px;
   }
 }
-
 @media (max-width: 600px) {
   #AMBox {
+    width: 90%;
     transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-
-    margin-right: 10px;
-    padding-right: 10px;
     border-right: 10px;
   }
 }
+
 #AMBox {
   background-color: white;
   max-width: 912px;
   height: fit-content;
   border: 0px solid gray;
-  margin-top: 20px;
   font-size: 16px;
   color: black;
   padding: 18px 24px;
   text-align: center;
-  margin: 20px auto;
+  margin: 0px auto 35px;
+  box-shadow: 0 6px 9px rgb(0 0 0 / 0.2);
 }

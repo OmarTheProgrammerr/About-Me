@@ -13,11 +13,21 @@
 }
 @media (max-width: 960px) {
   #Experience {
-    margin: 20px auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     width: 552px;
   }
   .Intern {
     margin: auto;
+  }
+}
+@media (max-width: 600px) {
+  #Experience {
+    width: 90%;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-right: 10px;
   }
 }
 #Experience {
@@ -30,5 +40,6 @@
   color: black;
   padding: 18px 24px;
   text-align: center;
-  margin: 20px auto;
+  box-shadow: 0 6px 9px rgb(0 0 0 / 0.2);
+  margin: 25px auto;
 }

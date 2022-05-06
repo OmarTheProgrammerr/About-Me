@@ -6,17 +6,33 @@
   margin-top: 20px;
   color: black;
   text-align: center;
-  margin: 20px auto;
+  box-shadow: 0 6px 9px rgb(0 0 0 / 0.2);
+  margin: 35px auto;
 }
 
 .card-header {
   margin-bottom: 16px;
 }
-
-.Intern {
+.card-body {
+  white-space: pre-line;
+  color: rgba(0, 0, 0, 0.6);
   font-size: 12px;
-  margin: 0px 230px 0px 230px;
+  margin-bottom: 16px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  margin: 0;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
+.Education {
+  margin: 0px;
+}
+
 @media (max-width: 960px) {
   #Education {
     margin: 20px auto;
@@ -26,25 +42,35 @@
     margin: auto;
   }
 }
-
+@media (max-width: 600px) {
+  #Education {
+    width: 90%;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-right: 10px;
+    margin-bottom: 20px;
+  }
+}
 .Concordia {
-  width: 200px;
+  width: 170px;
   margin: auto;
   margin-top: 16px;
 }
 
 .school {
-  width: 140px;
-  margin: auto;
-  margin-top: 0px;
+  width: 110px;
 }
 
 .AlManhal {
-  width: 110px;
+  width: 80px;
   margin: auto;
   margin-top: 0px;
 }
 .Education {
   font-size: 12px;
   margin: 0px 190px 0px 190px;
+}
+
+.content {
+  width: 250px;
+  margin: 0 auto;
 }
