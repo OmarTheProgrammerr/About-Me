@@ -42,6 +42,15 @@
   margin: 25px auto;
 }
 
+li::before {
+  content: "\2022";
+  color: green;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
 .description {
   text-align: left;
 }

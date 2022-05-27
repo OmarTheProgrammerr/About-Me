@@ -20,14 +20,14 @@ function AppD() {
     console.log("somthing happened!");
 
     return (
-      <li className="nav-item">
+      <div className="nav-item">
         <a href="#" className="icon-button" onClick={() => setOpen(!open)}>
           {props.icon}
           <MenuBar />
         </a>
 
         {open && props.children}
-      </li>
+      </div>
     );
   };
 
@@ -47,11 +47,37 @@ function AppD() {
     function DropdownItem(props) {
       return (
         <a
+          href="#HeyThere"
+          className="menu-item"
+          onClick={() => props.goToMenu && setActiveMenu(props.goToMenu)}
+        >
+          <span className="icon-button-inside">{props.leftIcon}</span>
+          {props.children}
+          <span className="icon-right">{props.rightIcon}</span>
+        </a>
+      );
+    }
+    function DropdownItemForMemory(props) {
+      return (
+        <a
+          href="Memory"
+          className="menu-item"
+          onClick={() => props.goToMenu && setActiveMenu(props.goToMenu)}
+        >
+          <span className="icon-button-inside">{props.leftIcon}</span>
+          {props.children}
+          <span className="icon-right">{props.rightIcon}</span>
+        </a>
+      );
+    }
+    function DropdownItemForResume(props) {
+      return (
+        <a
           href="#"
           className="menu-item"
           onClick={() => props.goToMenu && setActiveMenu(props.goToMenu)}
         >
-          <span className="icon-button">{props.leftIcon}</span>
+          <span className="icon-button-inside">{props.leftIcon}</span>
           {props.children}
           <span className="icon-right">{props.rightIcon}</span>
         </a>
@@ -89,12 +115,12 @@ function AppD() {
             <DropdownItem goToMenu="main" leftIcon={<Back />}>
               Back
             </DropdownItem>
-            <DropdownItem goToMenu="Memory" leftIcon={<Octopus />}>
+            <DropdownItemForMemory goToMenu="Memory" leftIcon={<Octopus />}>
               Memory
-            </DropdownItem>
-            <DropdownItem goToMenu="Memory" leftIcon={<Arrow />}>
+            </DropdownItemForMemory>
+            <DropdownItemForResume goToMenu="Memory" leftIcon={<Arrow />}>
               Resume
-            </DropdownItem>
+            </DropdownItemForResume>
           </div>
         </CSSTransition>
       </div>
@@ -102,15 +128,13 @@ function AppD() {
   }
 
   return (
-    <body>
-      <div className="overlay">
-        <Navbar>
-          <NavItem>
-            <DropdownMenu></DropdownMenu>
-          </NavItem>
-        </Navbar>
-      </div>
-    </body>
+    <div className="overlay">
+      <Navbar>
+        <NavItem>
+          <DropdownMenu></DropdownMenu>
+        </NavItem>
+      </Navbar>
+    </div>
   );
 }
 

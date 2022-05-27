@@ -39,15 +39,23 @@ max-width: 1100px
 `;
 export const NavName = styled(LinkR)`
   justify-self: flex-start;
-  color: black;
   position: center;
   cursor: pointer;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   margin-right: 90px;
-  margin-left: 20px;
   display: flex;
   align-items: center;
+  font-weight: 500;
+  color: inherit;
   text-decoration: none;
+  @media screen and (max-width: 960px) {
+    margin-left: 20px;
+  }
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    color: rgb(11 200 0 / 1);
+    text-decoration: none;
+  }
 `;
 
 export const MobileIcon = styled.div`

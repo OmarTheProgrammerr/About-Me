@@ -68,15 +68,34 @@ a {
   background-color: #484a4d;
   border-radius: 50%;
   padding: 5px;
-  margin: 2px;
+  color: red;
+  margin-right: 5px;
+  margin-top: 10.5px;
   display: flex;
   align-items: center;
+  position: relative;
   justify-content: center;
   transition: filter 300ms;
+}
+.icon-button-inside {
+  --button-size: calc(var(--nav-size) * 0.5);
+  width: var(--button-size);
+  height: var(--button-size);
+  background-color: #484a4d;
+  border-radius: 50%;
+  padding: 5px;
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: center;
 }
 
 .icon-button:hover {
   filter: brightness(1.2);
+  text-decoration: none;
+  color: black;
+  /* margin-top: 10px;    it would be coool if i can add a margin to them    it would like nicee*/
 }
 
 .icon-button svg {
@@ -89,7 +108,7 @@ a {
 
 .dropdown {
   position: absolute;
-  /* background-color: white; */
+  background-color: white;
   top: 66px;
   left: 125px; /* dfgsdfgsdfgdfffgs */
   width: 412px;
@@ -117,6 +136,8 @@ a {
   border-radius: var(--border-radius);
   transition: background var(--speed);
   padding: 0.5rem;
+  text-decoration: none;
+  color: black;
 }
 
 .menu-item .icon-button {
@@ -125,10 +146,13 @@ a {
 
 .menu-item .icon-button:hover {
   filter: none;
+  text-decoration: none;
+  color: black;
 }
 
 .menu-item:hover {
-  background-color: #525357;
+  background-color: rgb(0 255 0 / 0.7);
+  text-decoration: none;
 }
 
 .icon-right {
@@ -163,4 +187,17 @@ a {
 .menu-secondary-exit-active {
   transform: translateX(110%);
   transition: all var(--speed) ease;
+}
+
+@media (min-width: 960px) {
+  .dropdown {
+    display: none;
+  }
+
+  .burger {
+    display: none;
+  }
+  .nav-item {
+    display: none;
+  }
 }

@@ -1,21 +1,38 @@
+#finally {
+  text-align: center;
+}
 #MyCards {
   position: center;
-  /* min-width: 300px !important; */
-  width: 24rem;
+  margin: 16px;
+  text-align: left;
+}
+
+#ToTheLeft {
+  height: 65px;
+  text-align: left;
 }
 #sa {
-  margin: auto;
-  width: 50%;
+  text-align: center;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 24rem);
+  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-columns: repeat(2, 350px); */
   grid-row: auto;
   grid-column-gap: 60px;
   grid-row-gap: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
-/* @media (min-width: 960px) {
+@media (min-width: 960px) {
   #MyCards {
-    flex-grow: 0;
-    max-width: 50%;
     flex-basis: 50%;
   }
-} */
+}
+@media (max-width: 960px) {
+  #sa {
+    display: grid;
+    grid-row: auto;
+    flex-basis: 50%;
+    grid-row-gap: 50px;
+    grid-template-columns: 1fr;
+  }
+}

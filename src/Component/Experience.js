@@ -17,6 +17,26 @@ const Experience = () => {
         <p class="Intern">SWE Intern </p>
         <p class="Intern"> Jan 2022 - April 2022</p>
       </div>
+      <div class="Done">
+        <ul>
+          <li>
+            Built a web app for both the Automation and Maintenance departments
+            to submit work orders
+          </li>
+          <li>
+            Developed a system to collect the automation data and calculate the
+            performance and OEE using JavaScript
+          </li>
+          <li>
+            Wrote scripts that allowed the employees to follow all the NCRs from
+            the deliveries
+          </li>
+          <li>
+            Improved performance of the old scripts which reduced the running
+            time by 65%
+          </li>
+        </ul>
+      </div>
     </Card>
   );
 };

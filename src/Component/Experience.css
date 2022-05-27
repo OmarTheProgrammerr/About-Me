@@ -13,10 +13,7 @@
 }
 @media (max-width: 960px) {
   #Experience {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 20px;
     width: 552px;
   }
   .Intern {
@@ -42,4 +39,13 @@
   text-align: center;
   box-shadow: 0 6px 9px rgb(0 0 0 / 0.2);
   margin: 25px auto;
+}
+.Done {
+  text-align: left;
+}
+.ul {
+  text-align: left;
+}
+.li {
+  text-align: left;
 }

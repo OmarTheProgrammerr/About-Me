@@ -14,7 +14,7 @@ const Projects = () => {
         <p class="Intern">Fall 2021</p>
       </div>
       <div class="description">
-        <ul>
+        <ul className="list">
           <li>
             Built a Website where users can share their places with each other
             (with images & locations).
