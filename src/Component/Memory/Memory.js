@@ -1,24 +1,23 @@
 import React from "react";
-import { Card, Image } from "react-bootstrap";
+import { Image } from "react-bootstrap";
 import "./MemoryC.css";
 import Sep2 from "./im/Sep2.jpg";
 import MontrealAug30th2020 from "./im/MontrealAug30th2020.JPG";
 import MontrealOct4 from "./im/MontrealOct4.JPG";
 import MontrealOct9 from "./im/MontrealOct9.jpg";
 import MontrealOct17 from "./im/MontrealOct17.JPG";
-import MontrealOct232021 from "./im/MontrealOct232021.JPG";
+// import MontrealOct232021 from "./im/MontrealOct232021.JPG";
 import Nov82019 from "./im/Nov82019.jpg";
-import PalestineAug2 from "./im/PalestineAug2.JPG";
+//import PalestineAug2 from "./im/PalestineAug2.JPG";
 import USJun6 from "./im/USJun6.JPG";
 import USMar23 from "./im/USMar23.JPG";
 import USMay30th from "./im/USMay30th.jpg";
 import PalMay222 from "./im/PalMay222.jpg";
 import MTLJul2021 from "./im/MTLJul2021.jpg";
-import PALNov1619 from "./im/PALNov1619.jpg";
-import jerusalem from "./im/PALNov1619.jpg";
+//import PALNov1619 from "./im/PALNov1619.jpg";
+//import jerusalem from "./im/PALNov1619.jpg";
 import PalMay1422 from "./im/PalMay1422.jpg";
-
-import { FaGg } from "react-icons/fa";
+//import { FaGg } from "react-icons/fa";
 const Memory = () => {
   return (
     <div id="finally">

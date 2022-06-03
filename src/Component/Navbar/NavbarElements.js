@@ -1,9 +1,9 @@
 import styled from "styled-components";
 import { Link as LinkR } from "react-router-dom";
 import { Link as LinkS } from "react-router-dom";
-import ReactDOM from "react-dom";
-import React from "react";
-import PropTypes from "prop-types";
+// import ReactDOM from "react-dom";
+// import React from "react";
+// import PropTypes from "prop-types";
 
 export const Nav = styled.nav`
   // background-image: linear-gradient(to right, rgb(93, 238, 93), #61ca37);
@@ -41,7 +41,7 @@ export const NavName = styled(LinkR)`
   justify-self: flex-start;
   position: center;
   cursor: pointer;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   margin-right: 90px;
   display: flex;
   align-items: center;
@@ -81,7 +81,7 @@ export const NavTwoButtons = styled.ul`
     display: none;
   }
 `;
-export const NavName_Burger = styled.ul`
+export const NavNameBurger = styled.ul`
 margin-right= 20px;
 margin-top: 15px;
 display: flex;

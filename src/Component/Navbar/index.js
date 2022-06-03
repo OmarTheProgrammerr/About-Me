@@ -1,6 +1,6 @@
 import React from "react";
-import { FaBars } from "react-icons/fa";
-import { FaHamburger } from "react-icons/fa";
+// import { FaBars } from "react-icons/fa";
+// import { FaHamburger } from "react-icons/fa";
 import "../Button2.scss";
 import "../Button1.sass";
 import "../Sidebar/AppD.js";
@@ -9,26 +9,26 @@ import {
   Nav,
   NavbarContainer,
   NavName,
-  MobileIcon,
-  NavMenu,
-  NavItem,
-  NavBtn,
-  NavName_Burger,
-  Link,
+  // MobileIcon,
+  // NavMenu,
+  // NavItem,
+  // NavBtn,
+  NavNameBurger,
+  //Link,
   NavTwoButtons,
-  NavBtnLink,
+  //NavBtnLink,
   NavLinks,
 } from "./NavbarElements";
-import { BrowseRouter as Router } from "react-router-dom";
+//import { BrowseRouter as Router } from "react-router-dom";
 import AppD from "../Sidebar/AppD";
 const Navbar = () => {
   return (
     <Nav>
       <NavbarContainer>
-        <NavName_Burger>
+        <NavNameBurger>
           <AppD />
           <NavName to="/">OMAR FARES</NavName>
-        </NavName_Burger>
+        </NavNameBurger>
         {/* <NavMenu>
           <NavItem>
             <NavLinks to="About">About</NavLinks>
