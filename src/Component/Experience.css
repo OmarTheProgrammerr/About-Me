@@ -7,10 +7,23 @@
   margin: auto;
   margin-top: 16px;
 }
+.Meta {
+  width: 110px;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.Ubisoft {
+  width: 110px;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 .Intern {
   font-size: 12px;
   margin: 0px 230px 0px 230px;
 }
+
 @media (max-width: 960px) {
   #Experience {
     margin: 20px;

@@ -1,6 +1,6 @@
 #Header {
   /* background-image: linear-gradient(to right, rgb(93, 238, 93), #61ca37); */
-  width: absolute;
+  width: max-content;
   height: fit-content;
   border-radius: 0px;
   margin-bottom: 30px;

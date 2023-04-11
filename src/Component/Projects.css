@@ -53,4 +53,5 @@ li::before {
 
 .description {
   text-align: left;
+  margin-left: 20px;
 }

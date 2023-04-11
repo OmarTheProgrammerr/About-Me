@@ -1,0 +1,303 @@
+# Query: text
+# Flags: CaseSensitive WordMatch
+# ContextLines: 1
+
+81 results - 18 files
+
+package-lock.json:
+   8193          "table": "^6.0.9",
+   8194:         "text-table": "^0.2.0",
+   8195          "v8-compile-cache": "^2.0.3"
+
+  17223          "strip-ansi": "6.0.0",
+  17224:         "text-table": "0.2.0"
+  17225        },
+
+  20472      },
+  20473:     "node_modules/text-table": {
+  20474        "version": "0.2.0",
+  20475:       "resolved": "https://registry.npmjs.org/text-table/-/text-table-0.2.0.tgz",
+  20476        "integrity": "sha1-f17oI66AUgfACvLfSoTsP8+lcLQ="
+
+  29285          "table": "^6.0.9",
+  29286:         "text-table": "^0.2.0",
+  29287          "v8-compile-cache": "^2.0.3"
+
+  36174          "strip-ansi": "6.0.0",
+  36175:         "text-table": "0.2.0"
+  36176        },
+
+  38720      },
+  38721:     "text-table": {
+  38722        "version": "0.2.0",
+  38723:       "resolved": "https://registry.npmjs.org/text-table/-/text-table-0.2.0.tgz",
+  38724        "integrity": "sha1-f17oI66AUgfACvLfSoTsP8+lcLQ="
+
+yarn.lock:
+   5077      table "^6.0.9"
+   5078:     text-table "^0.2.0"
+   5079      v8-compile-cache "^2.0.3"
+
+   9798      strip-ansi "6.0.0"
+   9799:     text-table "0.2.0"
+   9800  
+
+  11368  
+  11369: text-table@0.2.0, text-table@^0.2.0:
+  11370    version "0.2.0"
+  11371:   resolved "https://registry.npmjs.org/text-table/-/text-table-0.2.0.tgz"
+  11372    integrity sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=
+
+public/index.html:
+  25      <link rel="stylesheet" href="css/menu.css" />
+  26:     <link rel="stylesheet" type="text/css" href="index.css" />
+  27    </head>
+
+src/index.css:
+  21  .center {
+  22:   text-align: center;
+  23    display: flex;
+
+src/Component/AMBox.css:
+    9    align-items: center;
+   10:   text-align: left;
+   11    justify-content: left;
+
+   27    object-fit: cover;
+   28:   text-align: center;
+   29:   text-indent: 10000px;
+   30    margin: auto;
+
+   50  a:link {
+   51:   text-decoration: none;
+   52  }
+   53  a:visited {
+   54:   text-decoration: none;
+   55  }
+
+   58    width: 20px;
+   59:   text-decoration: none;
+   60    margin: auto;
+
+   63    width: 20px;
+   64:   text-decoration: none;
+   65    margin: auto;
+
+   68    width: 20px;
+   69:   text-decoration: none;
+   70    margin: auto;
+
+   73    width: 20px;
+   74:   text-decoration: none;
+   75    margin: auto;
+
+  110    padding: 18px 24px;
+  111:   text-align: center;
+  112    margin: 0px auto 35px;
+
+src/Component/Button2.scss:
+  21  
+  22:   text {
+  23      font-size: 57px;
+
+src/Component/Education.css:
+   7    color: black;
+   8:   text-align: center;
+   9    box-shadow: 0 6px 9px rgb(0 0 0 / 0.2);
+
+  20    margin-bottom: 16px;
+  21:   text-align: center;
+  22    font-weight: 400;
+
+src/Component/Education.js:
+  10    return (
+  11:     <Card class="card text-center" id="Education">
+  12        <h4 class="card-header border-0" style={{ backgroundColor: "white" }}>
+
+src/Component/Experience.css:
+  51    padding: 18px 24px;
+  52:   text-align: center;
+  53    box-shadow: 0 6px 9px rgb(0 0 0 / 0.2);
+
+  56  .Done {
+  57:   text-align: left;
+  58  }
+  59  .ul {
+  60:   text-align: left;
+  61  }
+  62  .li {
+  63:   text-align: left;
+  64  }
+
+src/Component/Experience.js:
+  10    return (
+  11:     <Card class="card text-center " id="Experience">
+  12        <h4 class="card-header border-0" style={{ backgroundColor: "white" }}>
+
+src/Component/Projects.css:
+  39    padding: 18px 24px;
+  40:   text-align: center;
+  41    box-shadow: 0 6px 9px rgb(0 0 0 / 0.2);
+
+  54  .description {
+  55:   text-align: left;
+  56    margin-left: 20px;
+
+src/Component/Projects.js:
+  7    return (
+  8:     <Card class="card text-center" id="Project">
+  9        <h4 class="card-header border-0" style={{ backgroundColor: "white" }}>
+
+src/Component/Memory/Memory.js:
+   33              <h5 class="card-title">Ottawa, Canada</h5>
+   34:             <p class="card-text">September 2nd, 2021</p>
+   35            </div>
+
+   41              <h5 class="card-title">Westbank, Palestine</h5>
+   42:             <p class="card-text">May 22nd, 2022</p>
+   43            </div>
+
+   49              <h5 class="card-title">Montreal, Canada</h5>
+   50:             <p class="card-text">October 4th, 2021</p>
+   51            </div>
+
+   57              <h5 class="card-title">Westbank, Palestine</h5>
+   58:             <p class="card-text">May 14th, 2022</p>
+   59            </div>
+
+   65              <h5 class="card-title">NewOrleans, United states</h5>
+   66:             <p class="card-text">March 23th, 2021</p>
+   67            </div>
+
+   73              <h5 class="card-title">Westbank, Palestine</h5>
+   74:             <p class="card-text">November 8th, 2019</p>
+   75            </div>
+
+   81              <h5 class="card-title">Westbank, Palestine</h5>
+   82:             <p class="card-text">July 16th, 2020</p>
+   83            </div>
+
+   89              <h5 class="card-title">Montreal, Canada</h5>
+   90:             <p class="card-text">June 4th, 2022</p>
+   91            </div>
+
+   97              <h5 class="card-title">Montreal, Canada</h5>
+   98:             <p class="card-text">October 30th, 2022</p>
+   99            </div>
+
+  105              <h5 class="card-title">Montreal, Canada</h5>
+  106:             <p class="card-text">October 17th, 2021</p>
+  107            </div>
+
+  113              <h5 class="card-title">Webster Library, Concordia</h5>
+  114:             <p class="card-text">December 8th, 2022</p>
+  115            </div>
+
+  121              <h5 class="card-title">NewOrleans, United states</h5>
+  122:             <p class="card-text">June 6th, 2021</p>
+  123            </div>
+
+src/Component/Memory/MemoryC.css:
+   1  #finally {
+   2:   text-align: center;
+   3  }
+
+   6    margin: 16px;
+   7:   text-align: left;
+   8  }
+
+  11    height: 65px;
+  12:   text-align: left;
+  13  }
+  14  #sa {
+  15:   text-align: center;
+  16    display: grid;
+
+src/Component/Navbar/index.js:
+   94              <button id="gooey-button">
+   95:               <ext x="147" y="227" fill="#000">
+   96                  Resume
+   97:               </ext>
+   98                <span class="bubbles">
+
+  121                  d="M 90 210 C 90 180 90 150 90 150 C 150 150 180 150 180 150 C 180 150 300 150 300 150 C 300 150 330 150 390 150 C 390 150 390 180 390 210 C 390 240 390 270 390 270 C 330 270 300 270 300 270 C 300 270 180 270 180 270 C 180 270 150 270 90 270 C 90 270 90 240 90 210"
+  122:                 mask="url(#knockout-text)"
+  123                ></path>
+  124:               <mask id="knockout-text">
+  125                  <rect width="100%" height="100%" fill="#fff" x="0" y="0" />
+  126:                 <text x="147" y="227" fill="#000">
+  127                    Memory
+  128:                 </text>
+  129                </mask>
+
+src/Component/Navbar/NavbarElements.js:
+   51    color: inherit;
+   52:   text-decoration: none;
+   53    @media screen and (max-width: 960px) {
+
+   59      color: rgb(11 200 0 / 1);
+   60:     text-decoration: none;
+   61    }
+
+   92  list-style: none;
+   93: text-align: center;
+   94  `;
+
+   99    list-style: none;
+  100:   text-align: center;
+  101  
+
+  121    align-items: center;
+  122:   text-decoration: none;
+  123    list-style-type: none;
+
+  150    transition: all0.2s ease-in-out;
+  151:   text-decoration: none;
+  152  
+
+src/Component/Sidebar/AppD.css:
+   21  :root {
+   22:   --text-color: #dadce1;
+   23    --border: 1px solid #474a4d;
+
+   34  a {
+   35:   color: var(--text-color);
+   36:   text-decoration: none;
+   37  }
+
+   95    filter: brightness(1.2);
+   96:   text-decoration: none;
+   97    color: black;
+
+  101  .icon-button svg {
+  102:   fill: var(--text-color);
+  103    width: 20px;
+
+  138    padding: 0.5rem;
+  139:   text-decoration: none;
+  140    color: black;
+
+  148    filter: none;
+  149:   text-decoration: none;
+  150    color: black;
+
+  154    background-color: rgb(0 255 0 / 0.7);
+  155:   text-decoration: none;
+  156  }
+
+src/Component/Sidebar/SidebarElements.js:
+  40    grid-itemplate-rows: repeat(6, 80px);
+  41:   text-align: center;
+  42:   text-decoration: none;
+  43    list-style: none;
+
+  54    font_size: 1.5rem;
+  55:   text-decoration: none;
+  56    list-style: none;
+  57    transition: 0.2s ease-in-out;
+  58:   text-decoration: none;
+  59    color: #fff;
+
+  76  transition: all 0.2s ease-in-out;
+  77: text-decoration: none;
+  78  

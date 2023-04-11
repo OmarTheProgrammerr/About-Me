@@ -1,66 +1,89 @@
 import React from "react";
 import "./AMBox.css";
-import BossOmar from "../imgs/BossOmar.jpg";
-import Facebook from "../imgs/Facebook.jpg";
-import Email from "../imgs/Email.jpg";
-import Instagram from "../imgs/Instagram.jpg";
-import LinkedIn from "../imgs/LinkedIn.jpg";
+import OmarF from "../imgs/OmarF.jpg";
 import { Card, Image } from "react-bootstrap";
+import {
+  FaEnvelope,
+  FaLinkedin,
+  FaFacebook,
+  FaInstagram,
+} from "react-icons/fa";
+import { FiLinkedin } from "react-icons/fi";
+import Footer from "./Footer";
+import { Link } from "react-router-dom";
+import { SiGmail, SiIconfinder } from "react-icons/si";
+import { SlSocialTwitter } from "react-icons/sl";
 
 const AMBox = () => {
   return (
-    <Card class="mb-3" id="AMBox">
-      <div class="AboutMe">
+    <Card className="mb-3" id="AMBox">
+      <div className="AboutMe">
         <h4
-          class="card-header border-0"
+          className="card-header border-0"
           style={{ backgroundColor: "white", paddingBottom: "5px" }}
         >
           ABOUT ME
         </h4>
       </div>
-      <Image className="BossOmar" src={BossOmar} alt="Boss Omar"></Image>
+      <Image className="BossOmar" src={OmarF} alt="Boss Omar"></Image>
 
-      <div class="card-body">
+      <div className="card-body">
         <p>
-          Second-year Software Engineer student at Concordia University with a
-          growth mindset looking to acquire real-world software development
-          experience. love to dabble in code and anything technology! Feel free
-          to ping me below.
+          As a third-year software engineering student at Concordia University,
+          I am constantly seeking new opportunities to apply my skills and gain
+          practical experience in the field. I am passionate about technology
+          and enjoy experimenting with different programming languages and
+          frameworks. I am a proactive learner with a strong desire to
+          constantly improve and grow my abilities. If you have any
+          opportunities that could benefit from my skills and enthusiasm, please
+          don't hesitate to reach out to me.
         </p>
       </div>
-      <div class="myInfo">
-        <div class="child">
-          <Image className="Email" src={Email} alt="Email Image"></Image>{" "}
-          omar.fsm02@gmail.com
-        </div>
-        <div class="child">
-          <a href="https://www.linkedin.com/in/omar-fares-83a95b200/">
-            <Image
-              className="LinkedIn"
-              src={LinkedIn}
-              alt="LinkedIn Image"
-            ></Image>{" "}
-            linkedin.com/in/omarf2
+      <p className="ola">Blog, coming up soon!</p>
+      <div className="myInfo">
+        <Link to="/blog">
+          <SiIconfinder size={30} />
+        </Link>
+      </div>
+      <div className="myInfo">
+        <div className="child">
+          <a
+            href="mailto:omar.fsm02@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="invisible-link"
+          >
+            <SiGmail size={30} color="green" />
           </a>
         </div>
-        <div class="child">
-          <a href="https://www.facebook.com/omar.fares.3766952/">
-            <Image
-              className="Facebook"
-              src={Facebook}
-              alt="Facebook Image"
-            ></Image>{" "}
-            facebook.com/omarf02
+        <div className="child">
+          <a
+            href="https://www.linkedin.com/in/omar-fares-83a95b200/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="invisible-link"
+          >
+            <FiLinkedin size={30} color="green" />
           </a>
         </div>
-        <div class="child">
-          <a href="https://www.instagram.com/omar.fsm02/">
-            <Image
-              className="Instagram"
-              src={Instagram}
-              alt="Instagram Image"
-            ></Image>{" "}
-            instagram.com/omar.f2..
+        <div className="child">
+          <a
+            href="https://twitter.com/omar_fsm02"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="invisible-link"
+          >
+            <SlSocialTwitter size={30} color="green" />
+          </a>
+        </div>
+        <div className="child">
+          <a
+            href="https://www.instagram.com/omar.fsm02/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="invisible-link"
+          >
+            <FaInstagram size={30} color="green" />
           </a>
         </div>
       </div>

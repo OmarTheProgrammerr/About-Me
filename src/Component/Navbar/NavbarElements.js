@@ -21,6 +21,7 @@ export const Nav = styled.nav`
   border-radius: 0px;
   color: black;
   padding: 18px 24px;
+  // width: fit-content;
   box-shadow: 0 6px 9px rgb(0 0 0 / 0.2);
   @media screen and (max-width: 960 px) {
     transition: 0.8s all escape;
@@ -46,10 +47,12 @@ export const NavName = styled(LinkR)`
   display: flex;
   align-items: center;
   font-weight: 500;
+  width: 350px;
   color: inherit;
   text-decoration: none;
   @media screen and (max-width: 960px) {
-    margin-left: 20px;
+    margin-left: 40px;
+    width: 250px;
   }
   &:hover {
     transition: all 0.2s ease-in-out;
@@ -85,6 +88,7 @@ export const NavNameBurger = styled.ul`
 margin-right= 20px;
 margin-top: 15px;
 display: flex;
+width: inherit;
 align-items: center;
 list-style: none;
 text-align: center;

@@ -70,7 +70,7 @@ a {
   padding: 5px;
   color: red;
   margin-right: 5px;
-  margin-top: 10.5px;
+  margin-top: 25px;
   display: flex;
   align-items: center;
   position: relative;
@@ -110,7 +110,7 @@ a {
   position: absolute;
   background-color: white;
   top: 66px;
-  left: 125px; /* dfgsdfgsdfgdfffgs */
+  left: 160px; /* dfgsdfgsdfgdfffgs */
   width: 412px;
   box-shadow: 2px 8px 8px rgb(0 0 0 / 0.2);
   transform: translateX(-45%);
