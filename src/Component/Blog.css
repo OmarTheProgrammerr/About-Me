@@ -1,14 +1,21 @@
 .toggle-arrow {
-  width: 0;
-  height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-top: 10px solid currentColor;
   cursor: pointer;
+  margin-top: 60px;
   display: inline-block;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.4s ease-in-out;
+  font-size: 2rem;
 }
 
 .toggle-arrow.open {
   transform: rotate(90deg);
+}
+
+.content-container {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-in-out; /* Make the animation slower */
+}
+
+.content-container.expanded {
+  max-height: 200px; /* Adjust this value to fit your content */
 }

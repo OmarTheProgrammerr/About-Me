@@ -21,14 +21,22 @@ const Experience = () => {
       <div class="description">
         <ul>
           <li>
-            Built password configurations for the profile entities service using
-            Amazon secret manager, C# and TypeScript.
+            Built password configurations for S2S certificates in entities and
+            gateway microservices using AWS, C#, and TS.
+          </li>
+          <li>
+            Leveraged AWS CDK to develop an automated deployment system for
+            making changes to the infrastructure.
+          </li>
+          <li>
+            Implemented CI/CD pipelines, resulting in a 60% reduction in
+            deployment time and enabling faster and more reliable releases.
           </li>
         </ul>
       </div>
       <hr></hr>
       <Image className="Meta" src={Meta} alt="Software Engineer/"></Image>
-      <div class="card-bodsy">
+      <div class="card-body">
         <p class="Intern">Montreal, QC, Canada</p>
         <p class="Intern"> August 2022 - November 2022</p>
       </div>

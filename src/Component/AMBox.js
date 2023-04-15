@@ -29,14 +29,10 @@ const AMBox = () => {
 
       <div className="card-body">
         <p>
-          As a third-year software engineering student at Concordia University,
-          I am constantly seeking new opportunities to apply my skills and gain
-          practical experience in the field. I am passionate about technology
-          and enjoy experimenting with different programming languages and
-          frameworks. I am a proactive learner with a strong desire to
-          constantly improve and grow my abilities. If you have any
-          opportunities that could benefit from my skills and enthusiasm, please
-          don't hesitate to reach out to me.
+          A third-year SWE student at Concordia University. Currently, working
+          on building a startup && learning ML. If you have any opportunities
+          that could benefit from my skills and enthusiasm, please don't
+          hesitate to reach out to me!
         </p>
       </div>
       <p className="ola">Blog, coming up soon!</p>
