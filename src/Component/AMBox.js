@@ -37,7 +37,7 @@ const AMBox = () => {
       </div>
       <p className="ola">Blog, coming up soon!</p>
       <div className="myInfo">
-        <Link to="/blog">
+        <Link className="blogBaby" to="/blog">
           <SiIconfinder size={30} />
         </Link>
       </div>
