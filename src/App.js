@@ -11,12 +11,14 @@ import Projects from "./Component/Projects";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import BossOmar from "./imgs/BossOmar.jpg";
 import Memory from "./Component/Memory/Memory";
-import Blog from "./Component/Blog";
+import Blog from "./Component/MyBlog/Blog";
 import Footer from "./Component/Footer";
 // import About from "./About";
 // import { Card } from "react-bootstrap";
 import React from "react";
 import "./index.css";
+import HuntingSeason2024 from "./Component/MyBlog/HuntingSeason2024";
+import WhoAmI from "./Component/MyBlog/WhoAmI";
 
 const App = () => {
   return (
@@ -25,6 +27,8 @@ const App = () => {
       <Routes>
         <Route path="/memory" element={<Memory />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/HuntingSeason2024" element={<HuntingSeason2024 />} />
+        <Route path="/blog/WhoAmI" element={<WhoAmI />} />
         <Route
           path="/"
           element={

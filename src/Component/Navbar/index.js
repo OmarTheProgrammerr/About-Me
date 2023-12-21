@@ -95,7 +95,7 @@ const Navbar = () => {
               <text x="147" y="227" fill="#000">
                 Resume
               </text>
-              <span class="bubbles">
+              {/* <span class="bubbles">
                 <span class="bubble"></span>
                 <span class="bubble"></span>
                 <span class="bubble"></span>
@@ -106,7 +106,7 @@ const Navbar = () => {
                 <span class="bubble"></span>
                 <span class="bubble"></span>
                 <span class="bubble"></span>
-              </span>
+              </span> */}
             </button>
           </NavLinks>
 

@@ -3,21 +3,34 @@
 }
 
 .GoodFood {
-  width: 140px;
+  width: 110px;
   margin: auto;
-  margin-top: 16px;
+  margin-top: 8px;
+  margin-bottom: -10px;
 }
 .Meta {
-  width: 110px;
+  width: 90px;
   margin: auto;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: -20px;
 }
 .Ubisoft {
-  width: 110px;
+  width: 95px;
   margin: auto;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: -12px;
+}
+.Stealth {
+  width: 75px;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: -12px;
+}
+.LinkedIn3 {
+  width: 115px;
+  margin: auto;
+  margin-top: -10px;
+  margin-bottom: -40px;
 }
 .Intern {
   font-size: 12px;

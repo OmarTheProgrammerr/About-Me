@@ -24,6 +24,15 @@ import MTLJul2021 from "./im/MTLJul2021.jpg";
 //import PALNov1619 from "./im/PALNov1619.jpg";
 //import jerusalem from "./im/PALNov1619.jpg";
 import PalMay1422 from "./im/PalMay1422.jpg";
+
+import DubaiMay4 from "./im/DubaiMay4.jpg";
+import MontrealApril28 from "./im/MontrealApril28.jpg";
+import MontrealMar15 from "./im/MontrealMar15.jpg";
+import NewOrleansJuly21 from "./im/NewOrleansJuly21.jpg";
+import Toronto2Aug13 from "./im/Toronto2Aug13.jpg";
+import TorontoAug13 from "./im/TorontoAug13.jpg";
+import NewYorkDec2322 from "./im/NewYorkDec2322.jpg";
+
 //import { FaGg } from "react-icons/fa";
 const Memory = () => {
   return (
@@ -47,18 +56,18 @@ const Memory = () => {
 
         <div class="card" id="MyCards">
           <div class="card-body" id="ToTheLeft">
-            <h5 class="card-title">Montreal, Canada</h5>
-            <p class="card-text">October 4th, 2021</p>
+            <h5 class="card-title">New York City, USA</h5>
+            <p class="card-text">December 23rd, 2022</p>
           </div>
-          <Image className="M1" src={MontrealOct4} alt="Memory3"></Image>
+          <Image className="M1" src={NewYorkDec2322} alt="Memory3"></Image>
         </div>
 
         <div class="card" id="MyCards">
           <div class="card-body" id="ToTheLeft">
-            <h5 class="card-title">Westbank, Palestine</h5>
-            <p class="card-text">May 14th, 2022</p>
+            <h5 class="card-title">Montreal, Canada</h5>
+            <p class="card-text">April 28, 2023</p>
           </div>
-          <Image className="M1" src={PalMay1422} alt="Memory4"></Image>
+          <Image className="M1" src={MontrealApril28} alt="Memory4"></Image>
         </div>
 
         <div class="card" id="MyCards">
@@ -71,18 +80,17 @@ const Memory = () => {
 
         <div class="card" id="MyCards">
           <div class="card-body" id="ToTheLeft">
-            <h5 class="card-title">Westbank, Palestine</h5>
-            <p class="card-text">November 8th, 2019</p>
+            <h5 class="card-title">Montreal, Canada</h5>
+            <p class="card-text">October 4th, 2021</p>
           </div>
-          <Image className="M1" src={Nov82019} alt="Memory6"></Image>
+          <Image className="M1" src={MontrealOct4} alt="Memory3"></Image>
         </div>
-
         <div class="card" id="MyCards">
           <div class="card-body" id="ToTheLeft">
-            <h5 class="card-title">Westbank, Palestine</h5>
-            <p class="card-text">July 16th, 2020</p>
+            <h5 class="card-title">Toronto, Canada</h5>
+            <p class="card-text">August 13, 2023</p>
           </div>
-          <Image className="M1" src={Jul1620Pal} alt="Memory7"></Image>
+          <Image className="M1" src={TorontoAug13} alt="Memory11"></Image>
         </div>
 
         <div class="card" id="MyCards">
@@ -95,34 +103,33 @@ const Memory = () => {
 
         <div class="card" id="MyCards">
           <div class="card-body" id="ToTheLeft">
-            <h5 class="card-title">Montreal, Canada</h5>
-            <p class="card-text">October 30th, 2022</p>
-          </div>
-          <Image className="M1" src={MontrealOct3020221} alt="Memory9"></Image>
-        </div>
-
-        <div class="card" id="MyCards">
-          <div class="card-body" id="ToTheLeft">
-            <h5 class="card-title">Montreal, Canada</h5>
-            <p class="card-text">October 17th, 2021</p>
-          </div>
-          <Image className="M1" src={MontrealOct17} alt="Memory10"></Image>
-        </div>
-
-        <div class="card" id="MyCards">
-          <div class="card-body" id="ToTheLeft">
-            <h5 class="card-title">Webster Library, Concordia</h5>
-            <p class="card-text">December 8th, 2022</p>
-          </div>
-          <Image className="M1" src={MontrealOct3020222} alt="Memory11"></Image>
-        </div>
-
-        <div class="card" id="MyCards">
-          <div class="card-body" id="ToTheLeft">
             <h5 class="card-title">NewOrleans, United states</h5>
             <p class="card-text">June 6th, 2021</p>
           </div>
           <Image className="M1" src={USJun6} alt="Memory12"></Image>
+        </div>
+
+        <div class="card" id="MyCards">
+          <div class="card-body" id="ToTheLeft">
+            <h5 class="card-title">Dubai, UAE</h5>
+            <p class="card-text">May 4th, 2023</p>
+          </div>
+          <Image className="M1" src={DubaiMay4} alt="Memory10"></Image>
+        </div>
+
+        <div class="card" id="MyCards">
+          <div class="card-body" id="ToTheLeft">
+            <h5 class="card-title">Westbank, Palestine</h5>
+            <p class="card-text">July 16th, 2020</p>
+          </div>
+          <Image className="M1" src={Jul1620Pal} alt="Memory7"></Image>
+        </div>
+        <div class="card" id="MyCards">
+          <div class="card-body" id="ToTheLeft">
+            <h5 class="card-title">Montreal, Canada</h5>
+            <p class="card-text">October 30th, 2022</p>
+          </div>
+          <Image className="M1" src={MontrealOct3020221} alt="Memory9"></Image>
         </div>
       </div>
     </div>

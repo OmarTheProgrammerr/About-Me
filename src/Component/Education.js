@@ -15,8 +15,8 @@ const Education = () => {
       <div class="content">
         <Image className="Concordia" src={Concordia} alt="Education"></Image>
         <p class="card-body">
-          Bechelor's Degree<br></br> Major Software Engineer<br></br> September
-          2020 - Present
+          Bechelor's Degree<br></br> Major Software Engineer<br></br>
+          2021 - 2025
         </p>
         <hr></hr>
         <Image className="school" src={school} alt="Education"></Image>

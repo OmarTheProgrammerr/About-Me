@@ -29,13 +29,11 @@ const AMBox = () => {
 
       <div className="card-body">
         <p>
-          A third-year SWE student at Concordia University. Currently, working
-          on building a startup && learning ML. If you have any opportunities
-          that could benefit from my skills and enthusiasm, please don't
-          hesitate to reach out to me!
+          A third-year SWE student at Concordia University. Currently, building
+          a ML based startup. Seeking Opportunities! :)
         </p>
       </div>
-      <p className="ola">Blog, coming up soon!</p>
+      <p className="ola">Blog</p>
       <div className="myInfo">
         <Link className="blogBaby" to="/blog">
           <SiIconfinder size={30} />

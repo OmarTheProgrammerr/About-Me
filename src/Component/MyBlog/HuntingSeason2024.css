@@ -1,0 +1,145 @@
+.theText {
+  text-align: left; /* Aligns text to the left */
+  font-size: 1.3em; /* Increases the font size */
+  /* Other styles like line-height, margin, etc., can be added here if needed */
+}
+
+.title {
+  color: black;
+  font-size: 1.3em; /* Adjusted font size for title */
+}
+
+#date {
+  font-size: 13px;
+}
+
+.image-hover {
+  position: relative;
+}
+
+.image-tooltip {
+  display: none;
+  position: absolute;
+  bottom: 100%; /* Adjusts the position below the image */
+  left: 50%; /* Centers the tooltip */
+  transform: translateX(-50%); /* Ensures the tooltip is centered */
+  background-color: white; /* Background color of the tooltip */
+  border: 1px solid #ccc; /* Border around the tooltip */
+  border-radius: 8px; /* Rounded corners for the tooltip */
+  padding: 10px; /* Padding inside the tooltip */
+  width: 500px; /* Width of the tooltip */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Shadow for the tooltip */
+  z-index: 100; /* Ensures the tooltip is above other elements */
+}
+
+.image-tooltip img {
+  width: 100%; /* Full width of the tooltip */
+  height: auto; /* Auto height to maintain aspect ratio */
+}
+
+.tooltip-arrow {
+  position: absolute;
+  bottom: -10px; /* Position of the arrow */
+  left: 50%; /* Center the arrow */
+  transform: translateX(-50%); /* Ensure arrow is centered */
+  width: 20px; /* Width of the arrow */
+  height: 20px; /* Height of the arrow */
+  background-color: white; /* Background color of the arrow */
+  clip-path: polygon(50% 100%, 0 0, 100% 0); /* Shape of the arrow */
+}
+
+.image-hover:hover .image-tooltip {
+  display: block; /* Show the tooltip on hover */
+}
+
+.image-text {
+  color: #0056b3; /* Color of the text */
+  cursor: pointer; /* Change cursor to indicate clickable */
+  display: inline-block; /* Inline block for better alignment */
+}
+
+.post-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.post-info {
+  display: flex;
+  align-items: center;
+  font-size: 0.9em; /* Adjusted font size for consistency */
+  margin-top: 5px; /* Margin above the post info */
+}
+
+#date,
+.vertical-line,
+.reading-time {
+  display: flex;
+  align-items: center; /* Aligns items vertically in the center */
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+}
+
+.vertical-line {
+  border-left: 1px solid #ddd; /* Style of the vertical line */
+  height: 20px; /* Height of the vertical line */
+  margin: 0 10px; /* Margin around the vertical line */
+}
+.video-hover {
+  position: relative;
+}
+
+.video-tooltip {
+  display: none;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 240px; /* Tooltip container width */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+  padding: 10px;
+}
+
+.video-tooltip video {
+  width: 100%; /* Video takes full width of the container */
+  height: auto; /* Adjust height accordingly */
+}
+
+.video-hover:hover .video-tooltip {
+  display: block;
+}
+
+.image-tooltipS {
+  display: none;
+  position: absolute;
+  bottom: 100%; /* Adjusts the position below the image */
+  left: 50%; /* Centers the tooltip */
+  transform: translateX(-50%); /* Ensures the tooltip is centered */
+  background-color: white; /* Background color of the tooltip */
+  border: 1px solid #ccc; /* Border around the tooltip */
+  border-radius: 8px; /* Rounded corners for the tooltip */
+  padding: 10px; /* Padding inside the tooltip */
+  width: 300px; /* Width of the tooltip */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Shadow for the tooltip */
+  z-index: 100; /* Ensures the tooltip is above other elements */
+}
+
+.image-tooltipS img {
+  width: 100%; /* Full width of the tooltip */
+  height: auto; /* Auto height to maintain aspect ratio */
+}
+.image-hover:hover .image-tooltipS {
+  display: block; /* Show the tooltip on hover */
+}
+
+@media screen and (max-width: 768px) {
+  .image-tooltip,
+  .image-tooltipS {
+    width: 250px; /* Adjust the tooltip width accordingly */
+  }
+}

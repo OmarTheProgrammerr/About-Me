@@ -1,0 +1,85 @@
+.toggle-arrow {
+  cursor: pointer;
+
+  display: inline-block;
+  transition: transform 0.4s ease-in-out;
+  font-size: 2rem;
+}
+.titleOfBlog {
+  font-size: 20px;
+  color: rgb(118, 122, 120);
+}
+
+.contentRow1 {
+  margin-top: 20px;
+  display: flex;
+  align-items: center; /* This ensures vertical alignment if your items have different heights */
+}
+.contentRow {
+  display: flex;
+  align-items: center; /* This ensures vertical alignment if your items have different heights */
+}
+
+.toggle-arrow {
+  margin-right: 8px; /* Adjust spacing as needed */
+}
+
+.mb-3B {
+  width: 750px;
+}
+
+.toggle-arrow {
+  color: black; /* This will make the arrow icon black */
+}
+
+.contentRow1 a,
+.contentRow a {
+  color: #0056b3; /* Adjust this color to your preferred darker blue */
+  text-decoration: none; /* Optional: removes underline from links */
+}
+
+.contentRow1 a div,
+.contentRow a div {
+  color: #0056b3; /* Darker blue for the text */
+}
+.blog-post {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px; /* Adjust width as needed */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: adds shadow for depth */
+}
+
+.blog-post .card-title {
+  font-size: 2em; /* Larger title */
+  margin-bottom: 10px;
+}
+
+.blog-post .card-subtitle {
+  font-size: 0.9em;
+  margin-bottom: 20px;
+}
+
+.blog-post .card-text {
+  line-height: 1.6; /* Improves readability */
+}
+
+.blog-post ul {
+  padding-left: 20px; /* Proper indentation for bullet points */
+}
+
+.blog-post ul li {
+  margin-bottom: 10px; /* Space between bullet points */
+}
+
+.blog-post-text {
+  text-align: left; /* Aligns text to the left */
+  font-size: 1.6em; /* Increases the font size; adjust as needed */
+  /* Other styles like line-height, margin, etc., can be added here if needed */
+}
+
+.post-date {
+  font-size: 0.8em; /* Smaller font size for the date */
+  margin-left: 8px; /* Spacing between the title and the date */
+  color: #666; /* Optional: different color for the date */
+}
