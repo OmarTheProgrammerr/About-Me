@@ -51,7 +51,7 @@ const HuntingSeason2024 = () => {
           getting referrals from Google engineers, since Google was the only
           company that had its applications open that early at the time. If you
           work at Google then there is a high chance I asked you for a referral!
-          For the next 3 weeks I got{" "}
+          Over the next 3 weeks I got{" "}
           <span className="image-hover">
             <span className="image-text"> 10 referrals </span>
             <div className="image-tooltip">
