@@ -5,7 +5,7 @@ import { Card } from "react-bootstrap";
 const HeaderBox = () => {
   return (
     <Card id="Header">
-      <div class="HeaderDiv">Omar Fares</div>
+      <div className="HeaderDiv">Omar Fares</div>
     </Card>
   );
 };

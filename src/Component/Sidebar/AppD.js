@@ -21,10 +21,10 @@ function AppD() {
 
     return (
       <div className="nav-item">
-        <a href="#" className="icon-button" onClick={() => setOpen(!open)}>
+        <button className="icon-button" onClick={() => setOpen(!open)}>
           {props.icon}
           <MenuBar />
-        </a>
+        </button>
 
         {open && props.children}
       </div>
@@ -73,7 +73,7 @@ function AppD() {
     function DropdownItemForResume(props) {
       return (
         <a
-          href="#"
+          href="/"
           className="menu-item"
           onClick={() => props.goToMenu && setActiveMenu(props.goToMenu)}
         >

@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { Image, Card } from "react-bootstrap";
 import "./HuntingSeason2024.css";
-import { BiMessageAlt } from "react-icons/bi";
+//import { BiMessageAlt } from "react-icons/bi";
 import referrals from "./BlogImages/referrals.jpg";
 import screenTime from "./BlogImages/screenTime.jpeg";
 import bald from "./BlogImages/bald.jpeg";

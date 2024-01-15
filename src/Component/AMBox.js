@@ -3,13 +3,13 @@ import "./AMBox.css";
 import OmarF from "../imgs/OmarF.jpg";
 import { Card, Image } from "react-bootstrap";
 import {
-  FaEnvelope,
-  FaLinkedin,
-  FaFacebook,
+  // FaEnvelope,
+  // FaLinkedin,
+  // FaFacebook,
   FaInstagram,
 } from "react-icons/fa";
 import { FiLinkedin } from "react-icons/fi";
-import Footer from "./Footer";
+//import Footer from "./Footer";
 import { Link } from "react-router-dom";
 import { SiGmail, SiIconfinder } from "react-icons/si";
 import { SlSocialTwitter } from "react-icons/sl";
@@ -29,8 +29,8 @@ const AMBox = () => {
 
       <div className="card-body">
         <p>
-          I'm Omar, a SWE student at Concordia University. I'm continuously
-          seeking fresh minds and insights (a.k.a meeting new people).
+          I'm Omar, a SWE student at Concordia University. Continuously seeking
+          fresh minds and insights (a.k.a meeting new people).
         </p>
       </div>
       <p className="ola">Blog</p>

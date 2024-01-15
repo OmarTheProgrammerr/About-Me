@@ -11,10 +11,11 @@ const Blog = () => {
       <Link to="/blog/HuntingSeason2024" className="contentRow1">
         <TbArrowRightRhombus className="toggle-arrow" />
         <div>
-          Hunting Season 2024{" "}
+          <span style={{ color: "#0056b3" }}>Hunting Season 2024</span>
           <span className="post-date">- Dec 21st, 2023</span>
         </div>
       </Link>
+
       {/* <Link to="/blog/WhoAmI" className="contentRow">
         <TbArrowRightRhombus className="toggle-arrow" />
         <div>Who am I?</div>

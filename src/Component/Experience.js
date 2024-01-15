@@ -5,13 +5,13 @@ import GoodFood from "../imgs/GoodFood.jpg";
 import Meta from "../imgs/meta-logo.jpg";
 import Ubisoft from "../imgs/Ubisoft_logo.svg.jpg";
 import Stealth from "../imgs/Stealth.jpeg";
-import LinkedIn2 from "../imgs/LinkedIn2.svg.png";
+//import LinkedIn2 from "../imgs/LinkedIn2.svg.png";
 import LinkedIn3 from "../imgs/LinkedIn3.webp";
 
 const Experience = () => {
   return (
-    <Card class="card text-center " id="Experience">
-      <h4 class="card-header border-0" style={{ backgroundColor: "white" }}>
+    <Card className="card text-center " id="Experience">
+      <h4 className="card-header border-0" style={{ backgroundColor: "white" }}>
         EXPERIENCE
       </h4>
       <Image
@@ -19,24 +19,24 @@ const Experience = () => {
         src={LinkedIn3}
         alt="Software Engineer/"
       ></Image>
-      <div class="card-body">
-        <p class="Intern">Sunnyvale, California, USA</p>
-        <p class="Intern"> Incoming Software Engineer Intern </p>
-        <p class="Intern"> June 17th </p>
+      <div className="card-body">
+        <p className="Intern">Sunnyvale, California, USA</p>
+        <p className="Intern"> Incoming Software Engineer Intern </p>
+        <p className="Intern"> June 17th </p>
       </div>
-      <div class="description">
+      <div className="description">
         <ul>
           <li>Incoming Back-End SWE Intern at LinkedIn, Summer 2024!</li>
         </ul>
       </div>
       <hr></hr>
       <Image className="Stealth" src={Stealth} alt="Software Engineer/"></Image>
-      <div class="card-body">
-        <p class="Intern">Montreal, QC, Canada</p>
-        <p class="Intern"> Co-Founder </p>
-        <p class="Intern"> August 2023 - present</p>
+      <div className="card-body">
+        <p className="Intern">Montreal, QC, Canada</p>
+        <p className="Intern"> Co-Founder </p>
+        <p className="Intern"> August 2023 - present</p>
       </div>
-      <div class="description">
+      <div className="description">
         <ul>
           <li>
             Building VisionGuard, a mission to help retail stores maintain their
@@ -46,12 +46,12 @@ const Experience = () => {
       </div>
       <hr></hr>
       <Image className="Ubisoft" src={Ubisoft} alt="Software Engineer/"></Image>
-      <div class="card-body">
-        <p class="Intern">Montreal, QC, Canada</p>
-        <p class="Intern"> Back-End SWE </p>
-        <p class="Intern"> Jan 2023 - April 2023</p>
+      <div className="card-body">
+        <p className="Intern">Montreal, QC, Canada</p>
+        <p className="Intern"> Back-End SWE </p>
+        <p className="Intern"> Jan 2023 - April 2023</p>
       </div>
-      <div class="description">
+      <div className="description">
         <ul>
           <li>
             Built password configurations for S2S certificates in entities and
@@ -69,11 +69,11 @@ const Experience = () => {
       </div>
       <hr></hr>
       <Image className="Meta" src={Meta} alt="Software Engineer/"></Image>
-      <div class="card-body">
-        <p class="Intern">NYC, USA</p>
-        <p class="Intern"> August 2022 - November 2022</p>
+      <div className="card-body">
+        <p className="Intern">NYC, USA</p>
+        <p className="Intern"> August 2022 - November 2022</p>
       </div>
-      <div class="description">
+      <div className="description">
         <ul>
           <li>
             Attended weekly development program geared towards enhancing
@@ -89,12 +89,12 @@ const Experience = () => {
       </div>
       <hr></hr>
       <Image className="GoodFood" src={GoodFood} alt="Internship"></Image>
-      <div class="card-body">
-        <p class="Intern">Montreal, QC, Canada</p>
-        <p class="Intern">SWE Intern </p>
-        <p class="Intern"> Jan 2022 - April 2022</p>
+      <div className="card-body">
+        <p className="Intern">Montreal, QC, Canada</p>
+        <p className="Intern">SWE Intern </p>
+        <p className="Intern"> Jan 2022 - April 2022</p>
       </div>
-      <div class="description">
+      <div className="description">
         <ul>
           <li>
             Built a web app for both the Automation and Maintenance departments

@@ -5,15 +5,15 @@ import { Card, Image } from "react-bootstrap";
 
 const Projects = () => {
   return (
-    <Card class="card text-center" id="Project">
-      <h4 class="card-header border-0" style={{ backgroundColor: "white" }}>
+    <Card className="card text-center" id="Project">
+      <h4 className="card-header border-0" style={{ backgroundColor: "white" }}>
         PROJECTS
       </h4>
       <Image className="FindOmar" src={FindOmar} alt="Projects"></Image>
-      <div class="card-body">
-        <p class="Intern">Fall 2021</p>
+      <div className="card-body">
+        <p className="Intern">Fall 2021</p>
       </div>
-      <div class="description">
+      <div className="description">
         <ul className="list">
           <li>
             Built a Website where users can share their places with each other
