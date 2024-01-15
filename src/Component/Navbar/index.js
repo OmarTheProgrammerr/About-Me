@@ -92,27 +92,15 @@ const Navbar = () => {
             </svg>
 
             <button id="gooey-button">
-              <text x="147" y="227" fill="#000">
+              <div x="147" y="227" fill="#000">
                 Resume
-              </text>
-              {/* <span class="bubbles">
-                <span class="bubble"></span>
-                <span class="bubble"></span>
-                <span class="bubble"></span>
-                <span class="bubble"></span>
-                <span class="bubble"></span>
-                <span class="bubble"></span>
-                <span class="bubble"></span>
-                <span class="bubble"></span>
-                <span class="bubble"></span>
-                <span class="bubble"></span>
-              </span> */}
+              </div>
             </button>
           </NavLinks>
 
           <NavLinks to="Memory">
             <svg
-              class="myClass1"
+              className="myClass1"
               viewBox="45 60 400 320"
               xmlns="http://www.w3.org/2000/svg"
             >

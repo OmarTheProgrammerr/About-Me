@@ -29,8 +29,8 @@ const AMBox = () => {
 
       <div className="card-body">
         <p>
-          A third-year SWE student at Concordia University. Currently, building
-          a ML based startup. Seeking Opportunities! :)
+          I'm Omar, a SWE student at Concordia University. I'm continuously
+          seeking fresh minds and insights (a.k.a meeting new people).
         </p>
       </div>
       <p className="ola">Blog</p>
