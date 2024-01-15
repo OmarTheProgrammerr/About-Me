@@ -28,7 +28,7 @@ const AMBox = () => {
       <Image className="BossOmar" src={OmarF} alt="Boss Omar"></Image>
 
       <div className="card-body">
-        <p>
+        <p style={{ fontSize: "18px" }}>
           I'm Omar, a SWE student at Concordia University. Continuously seeking
           fresh minds and insights (a.k.a meeting new people).
         </p>
