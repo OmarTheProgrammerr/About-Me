@@ -158,7 +158,8 @@ const HuntingSeason2024 = () => {
           </a>
           . Two days before the interview I did 2 behaviour mock interviews to
           make sure I got this. October 5th came and I simply KILLED it, and got
-          the offer a week later.
+          the offer a week later. I also ended up getting 2 more offers, one
+          from Salesforce in SF and another from Autodesk in Toronto for Winter.
           <br></br>
           <br></br>
           Do I regret spending all these hours on getting referrals? No, I
@@ -183,7 +184,8 @@ const HuntingSeason2024 = () => {
               companies that’s when you should start reaching out to “Campus
               recruiters” or “University recruiters” on LinkedIn. DO NOT waste
               your time and reach out to just some random engineers or managers,
-              the best they can do is telling you to apply over the website!
+              the best they can do is telling you to apply over the companies
+              website!
             </li>
             <li>
               Spend 1 hour writing one nice short message introducing yourself

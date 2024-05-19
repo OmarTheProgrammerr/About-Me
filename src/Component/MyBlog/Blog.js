@@ -16,6 +16,21 @@ const Blog = () => {
         </div>
       </Link>
 
+      <Link to="/blog/LearnHowToLearn" className="contentRow1">
+        <TbArrowRightRhombus className="toggle-arrow" />
+        <div>
+          <span style={{ color: "#0056b3" }}>Learn How to Learn</span>
+          <span className="post-date">Coming Soon</span>
+        </div>
+      </Link>
+      <Link to="/blog/TenCupsOfCoffee" className="contentRow1">
+        <TbArrowRightRhombus className="toggle-arrow" />
+        <div>
+          <span style={{ color: "#0056b3" }}>10 Cups of Coffee</span>
+          <span className="post-date">Coming Soon</span>
+        </div>
+      </Link>
+
       {/* <Link to="/blog/WhoAmI" className="contentRow">
         <TbArrowRightRhombus className="toggle-arrow" />
         <div>Who am I?</div>
