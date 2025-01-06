@@ -16,8 +16,8 @@ const Projects = () => {
       <div className="description">
         <ul className="list">
           <li>
-            Built a Website where users can share their places with each other
-            (with images & locations).
+            Built a Website where users can share their live locations with each
+            other (with images & locations).
           </li>
           <li>
             Added an option where users can view the locations on GoogleMaps.

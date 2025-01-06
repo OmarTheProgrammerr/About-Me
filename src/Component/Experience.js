@@ -5,6 +5,7 @@ import GoodFood from "../imgs/GoodFood.jpg";
 import Meta from "../imgs/meta-logo.jpg";
 import Ubisoft from "../imgs/Ubisoft_logo.svg.jpg";
 import Stealth from "../imgs/Stealth.jpeg";
+import OmarLogo from "../imgs/omar-logo.png";
 //import LinkedIn2 from "../imgs/LinkedIn2.svg.png";
 import LinkedIn3 from "../imgs/LinkedIn3.webp";
 
@@ -14,19 +15,63 @@ const Experience = () => {
       <h4 className="card-header border-0" style={{ backgroundColor: "white" }}>
         EXPERIENCE
       </h4>
+      <Image className="Stealth" src={Stealth} alt="Software Engineer/"></Image>
+      <div className="card-body">
+        <p className="Intern">New Orleans, LA, USA</p>
+        <p className="Intern"> Co-Founder / CTO </p>
+        <p className="Intern"> Jan 2025 - present</p>
+      </div>
+      <div className="description">
+        <ul>
+          <li>
+            Co-Founding a stealth startup (Will be announced soon this year) and
+            grew it 3 Million USD Valuation!{" "}
+          </li>
+          <li>For details, please contact me on LinkedIn! </li>
+        </ul>
+      </div>
+      <hr></hr>
       <Image
         className="LinkedIn3"
         src={LinkedIn3}
         alt="Software Engineer/"
       ></Image>
       <div className="card-body">
-        <p className="Intern">Sunnyvale, California, USA</p>
-        <p className="Intern"> Incoming Software Engineer Intern </p>
-        <p className="Intern"> June 17th </p>
+        <p className="Intern">Mountain View, California, USA</p>
+        <p className="Intern"> Software Engineer Intern, ML Infra</p>
+        <p className="Intern"> June 17th - Aug 16</p>
       </div>
       <div className="description">
         <ul>
-          <li>Incoming Back-End SWE Intern at LinkedIn, Summer 2024!</li>
+          <li>
+            Led the integration of PyTorch backend support to Model Inference,
+            using Nvidia Triton server to run LPMs.
+          </li>
+          <li>
+            Implemented the support of Sparse Tensors for inputs conversion
+            which led into a better inference speed.
+          </li>
+          <li>
+            Enhanced model inference efficiency and significantly reduced GPU
+            costs for LinkedIn.
+          </li>
+          <li>
+            Collaborated with the training team to integrate the inference for
+            fine tuning of the models
+          </li>
+        </ul>
+      </div>
+      <hr></hr>
+      <Image className="omarlogo" src={OmarLogo} alt="Freelance/"></Image>
+      <div className="card-body">
+        <p className="Intern">New Orleans, LA, USA</p>
+        <p className="Intern"> Freelancer</p>
+        <p className="Intern"> Jan 2025 - present</p>
+      </div>
+      <div className="description">
+        <ul>
+          <li>Worked on 7 projects for clients in the US and Canada! </li>
+          <li>For prototypes of my work, please contact me! </li>
         </ul>
       </div>
       <hr></hr>

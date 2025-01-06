@@ -18,6 +18,9 @@ import June4MTL from "./im/June4MTL.jpg";
 import TheGANG from "./im/TheGANG.jpg";
 //import May22Pal from "./im/May22Pal.jpg";
 import MontrealOct3020221 from "./im/IMG_2006.jpeg";
+import Aug4SF from "./im/Aug4SF.jpg";
+import Aug11SF from "./im/Aug11SF.jpg";
+import Aug15MV from "./im/Aug15MV.jpg";
 //import MontrealOct3020222 from "./im/IMG_1983.jpeg";
 //import LibDec8 from "./im/LibDec8.mp4";
 //import MTLJul2021 from "./im/MTLJul2021.jpg";
@@ -38,6 +41,30 @@ const Memory = () => {
   return (
     <div id="finally">
       <div id="sa">
+        <div className="card" id="MyCards">
+          <div className="card-body" id="ToTheLeft">
+            <h5 className="card-title">San Francisco, California</h5>
+            <p className="card-text">August 4th, 2024</p>
+          </div>
+          <Image className="M1" src={Aug4SF} alt="Memory1"></Image>
+        </div>
+
+        <div className="card" id="MyCards">
+          <div className="card-body" id="ToTheLeft">
+            <h5 className="card-title">San Francisco, California</h5>
+            <p className="card-text">August 11th, 2024</p>
+          </div>
+          <Image className="M1" src={Aug11SF} alt="Memory3"></Image>
+        </div>
+
+        <div className="card" id="MyCards">
+          <div className="card-body" id="ToTheLeft">
+            <h5 className="card-title">Mountain View, California</h5>
+            <p className="card-text">August 15th, 2024</p>
+          </div>
+          <Image className="M1" src={Aug15MV} alt="Memory4"></Image>
+        </div>
+
         <div className="card" id="MyCards">
           <div className="card-body" id="ToTheLeft">
             <h5 className="card-title">Ottawa, Canada</h5>
