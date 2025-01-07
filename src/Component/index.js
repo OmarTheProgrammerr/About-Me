@@ -1,9 +1,9 @@
 import React from "react";
 // import { FaBars } from "react-icons/fa";
 // import { FaHamburger } from "react-icons/fa";
-import "../Button2.scss";
-import "../Button1.sass";
-import "../Sidebar/AppD.js";
+import "./Button2.scss";
+import "./Button1.sass";
+import "./Sidebar/AppD.js";
 
 import {
   Nav,
@@ -18,9 +18,9 @@ import {
   NavTwoButtons,
   //NavBtnLink,
   NavLinks,
-} from "./NavbarElements";
+} from "./NavbarElements.js";
 //import { BrowseRouter as Router } from "react-router-dom";
-import AppD from "../Sidebar/AppD";
+import AppD from "./Sidebar/AppD.js";
 const Navbar = () => {
   return (
     <Nav>

@@ -6,6 +6,7 @@ import { SiOctopusdeploy as Octopus } from "react-icons/si";
 import { GiSpiralArrow as Arrow } from "react-icons/gi";
 import { GiCaptainHatProfile as MAM } from "react-icons/gi";
 import { IoIosArrowRoundBack as Back } from "react-icons/io";
+import { NavName } from "../NavbarElements.js";
 
 function AppD() {
   const Navbar = (props) => {
@@ -17,15 +18,29 @@ function AppD() {
   };
   const NavItem = (props) => {
     const [open, setOpen] = useState(false);
-    console.log("somthing happened!");
+
+    useEffect(() => {
+      const handleClickOutside = (event) => {
+        if (
+          open &&
+          !event.target.closest(".dropdown") &&
+          !event.target.closest(".icon-button")
+        ) {
+          setOpen(false);
+        }
+      };
+
+      document.addEventListener("mousedown", handleClickOutside);
+      return () =>
+        document.removeEventListener("mousedown", handleClickOutside);
+    }, [open]);
 
     return (
       <div className="nav-item">
         <button className="icon-button" onClick={() => setOpen(!open)}>
-          {props.icon}
-          <MenuBar />
+          <MenuBar size={24} />
         </button>
-
+        <div className={`menu-overlay ${open ? "active" : ""}`} />
         {open && props.children}
       </div>
     );
@@ -37,13 +52,14 @@ function AppD() {
     const dropdownRef = useRef(null);
 
     useEffect(() => {
-      setMenuHeight(dropdownRef.current?.firstChild.offsetHeight + 30);
-    }, []);
+      setMenuHeight(dropdownRef.current?.firstChild.offsetHeight);
+    }, [activeMenu]);
 
     function calcHeight(el) {
-      const height = el.offsetHeight + 30;
+      const height = el.offsetHeight;
       setMenuHeight(height);
     }
+
     function DropdownItem(props) {
       return (
         <a
@@ -57,36 +73,10 @@ function AppD() {
         </a>
       );
     }
-    function DropdownItemForMemory(props) {
-      return (
-        <a
-          href="Memory"
-          className="menu-item"
-          onClick={() => props.goToMenu && setActiveMenu(props.goToMenu)}
-        >
-          <span className="icon-button-inside">{props.leftIcon}</span>
-          {props.children}
-          <span className="icon-right">{props.rightIcon}</span>
-        </a>
-      );
-    }
-    function DropdownItemForResume(props) {
-      return (
-        <a
-          href="/"
-          className="menu-item"
-          onClick={() => props.goToMenu && setActiveMenu(props.goToMenu)}
-        >
-          <span className="icon-button-inside">{props.leftIcon}</span>
-          {props.children}
-          <span className="icon-right">{props.rightIcon}</span>
-        </a>
-      );
-    }
 
     return (
       <div
-        className="dropdown"
+        className={`dropdown ${activeMenu ? "active" : ""}`}
         style={{ height: menuHeight }}
         ref={dropdownRef}
       >
@@ -115,12 +105,8 @@ function AppD() {
             <DropdownItem goToMenu="main" leftIcon={<Back />}>
               Back
             </DropdownItem>
-            <DropdownItemForMemory goToMenu="Memory" leftIcon={<Octopus />}>
-              Memory
-            </DropdownItemForMemory>
-            <DropdownItemForResume goToMenu="Memory" leftIcon={<Arrow />}>
-              Resume
-            </DropdownItemForResume>
+            <DropdownItem leftIcon={<Octopus />}>Memory</DropdownItem>
+            <DropdownItem leftIcon={<Arrow />}>Resume</DropdownItem>
           </div>
         </CSSTransition>
       </div>

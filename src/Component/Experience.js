@@ -121,14 +121,14 @@ const Experience = () => {
       <div className="description">
         <ul>
           <li>
-            Attended weekly development program geared towards enhancing
-            knowledge of programming fundamentals, engaging with industry
-            professionals, and ensuring career readiness.
-          </li>
-          <li>
             Implemented data structures and algorithms with a focus on
             optimizing time & space complexities on the notification department
             of instagram using Java and Python.
+          </li>
+          <li>
+            Attended weekly development program geared towards enhancing
+            knowledge of programming fundamentals, engaging with industry
+            professionals, and ensuring career readiness.
           </li>
         </ul>
       </div>

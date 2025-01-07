@@ -1,16 +1,20 @@
 .overlay {
   font-size: 22px;
-  padding: 18px 24px;
-  /* box-shadow: 0 8px 10px rgb(0 0 0 / 0.2); */
+  padding: 0;
   position: fixed;
-  top: -12px;
-  left: 0px;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
 }
 
 .burger {
   display: inline-block;
-  display: inline;
   cursor: pointer;
+  position: relative;
+  z-index: 102;
 }
 
 .MyName {
@@ -42,6 +46,8 @@ a {
 .navbar {
   height: var(--nav-size);
   padding: 0 1rem;
+  position: relative;
+  z-index: 103;
 }
 
 /* <ul> */
@@ -55,9 +61,12 @@ a {
 .nav-item {
   width: calc(var(--nav-size) * 0.8);
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  margin-left: -16px;
+  margin-left: 16px;
+  position: relative;
+  z-index: 102;
+  height: auto;
 }
 
 /* Icon Button */
@@ -73,9 +82,14 @@ a {
   margin-top: 25px;
   display: flex;
   align-items: center;
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 16px;
   justify-content: center;
   transition: filter 300ms;
+  cursor: pointer;
+  pointer-events: auto;
+  transform: none;
 }
 .icon-button-inside {
   --button-size: calc(var(--nav-size) * 0.5);
@@ -107,26 +121,30 @@ a {
 /* Dropdown Menu */
 
 .dropdown {
-  position: absolute;
+  position: fixed;
   background-color: white;
-  top: 66px;
-  left: 160px; /* dfgsdfgsdfgdfffgs */
-  width: 412px;
-  box-shadow: 2px 8px 8px rgb(0 0 0 / 0.2);
-  transform: translateX(-45%);
-  /* background-image: linear-gradient(
-    to right,
-    rgb(95, 230, 95),
-    rgb(95, 220, 95)
-  ); */
+  top: 70px;
+  left: -47px;
+  width: 100%;
+  box-shadow: 8px 8px 8px 0px rgb(0 0 0 / 0.2);
   padding: 1rem;
   overflow: hidden;
-  transition: height var(--speed) ease;
+  transition: all var(--speed) cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 0;
+  transform: translateY(-100%);
+  animation: slideDown 0.3s ease-out forwards;
+  z-index: 101;
+  pointer-events: auto;
+  height: auto !important;
 }
 
 .menu {
   width: 100%;
   color: black;
+  max-width: 912px;
+  margin: 0 auto;
+  padding: 0 24px;
+  pointer-events: auto;
 }
 
 .menu-item {
@@ -138,6 +156,8 @@ a {
   padding: 0.5rem;
   text-decoration: none;
   color: black;
+  cursor: pointer;
+  pointer-events: auto;
 }
 
 .menu-item .icon-button {
@@ -187,6 +207,17 @@ a {
 .menu-secondary-exit-active {
   transform: translateX(110%);
   transition: all var(--speed) ease;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @media (min-width: 960px) {

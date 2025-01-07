@@ -51,7 +51,7 @@ export const NavName = styled(LinkR)`
   color: inherit;
   text-decoration: none;
   @media screen and (max-width: 960px) {
-    margin-left: 40px;
+    margin-left: 10px;
     width: 250px;
   }
   &:hover {

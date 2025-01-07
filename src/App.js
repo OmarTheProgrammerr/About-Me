@@ -1,6 +1,6 @@
 import "./App.css";
 
-import Navbar from "./Component/Navbar";
+import Navbar from "./Component";
 // import Sidebar from "./Component/Sidebar";
 // import HeaderBox from "./Component/HeaderBox";
 import AMBox from "./Component/AMBox";
