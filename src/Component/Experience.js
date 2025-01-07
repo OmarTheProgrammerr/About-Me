@@ -66,7 +66,7 @@ const Experience = () => {
       <div className="card-body">
         <p className="Intern">New Orleans, LA, USA</p>
         <p className="Intern"> Freelancer</p>
-        <p className="Intern"> Jan 2025 - present</p>
+        <p className="Intern"> Jan 2024 - present</p>
       </div>
       <div className="description">
         <ul>
